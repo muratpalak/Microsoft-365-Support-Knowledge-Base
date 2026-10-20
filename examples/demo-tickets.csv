@@ -1,0 +1,5 @@
+﻿Ticket-ID;Typ;Priorität;Service;Symptom/Request;Diagnose;Maßnahme;Test;Status;Hinweis
+DEMO-001;Service Request;P3;Microsoft 365;Onboarding neue Person;Freigabe, Gerät, Lizenz, Owner geprüft;Konto/Lizenz/Gerät/MFA nach Prozess;Login, Mail, Teams, OneDrive (simuliert);Gelöst (simuliert);Fiktiver Fall
+DEMO-002;Incident;P3;Teams;Desktop-Client Login hängt;"Web funktioniert; nur ein Client";"App-Update, Neustart; gezielter Reset";Testmeeting (simuliert);Gelöst (simuliert);Fiktiver Fall
+DEMO-003;Incident;P3;Exchange Online;Shared Mailbox Senden als fehlt;Full Access vorhanden, Send As fehlt;"Owner-Freigabe; Admin setzt Send As";Testmail (simuliert);Gelöst (simuliert);Fiktiver Fall
+DEMO-004;Incident;P3;OneDrive;Mac Sync hängt;"Webdateien verfügbar; Clientproblem";Lokale Daten prüfen, Konto neu verbinden;Testdatei synchron (simuliert);Gelöst (simuliert);Fiktiver Fall
