@@ -1,5 +1,15 @@
 # m365.desk — Microsoft 365 Support Knowledge Base
 
+<!-- BEGIN: REAL APPLICATION PREVIEW -->
+
+## Interface preview / Benutzeroberfläche
+
+![Microsoft 365 Support Knowledge Base home screen](docs/dashboard-preview.png)
+
+> Screenshot captured from the **running application with fictional/demo data**. This is a locally hosted portfolio demo, not a production deployment. / *Echter Screenshot aus der lokal gestarteten Demo mit Beispieldaten.*
+
+<!-- END: REAL APPLICATION PREVIEW -->
+
 <!-- BEGIN: INTERNATIONAL PORTFOLIO SUMMARY -->
 
 [![CI status](https://github.com/muratpalak/Microsoft-365-Support-Knowledge-Base/actions/workflows/pages.yml/badge.svg)](https://github.com/muratpalak/Microsoft-365-Support-Knowledge-Base/actions/workflows/pages.yml)
