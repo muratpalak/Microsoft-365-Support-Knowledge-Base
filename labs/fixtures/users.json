@@ -1,0 +1,30 @@
+{
+  "dataset": "SYNTHETIC TRAINING DATA — NO REAL USERS OR TENANTS",
+  "tenant": "example.onmicrosoft.com (fictional string, not an authenticated tenant)",
+  "users": [
+    {
+      "name": "Ada Yilmaz",
+      "upn": "ada.yilmaz@example.com",
+      "scenario": "approved new starter",
+      "access": "no permissions assigned by this lab"
+    },
+    {
+      "name": "Lina Weber",
+      "upn": "lina.weber@example.com",
+      "scenario": "lost MFA device",
+      "access": "no recovery performed"
+    },
+    {
+      "name": "Samir Koenig",
+      "upn": "samir.koenig@example.com",
+      "scenario": "shared mailbox permissions review",
+      "access": "no admin role assigned"
+    }
+  ],
+  "device": {
+    "name": "WIN11-DEMO-02",
+    "status": "noncompliant (illustrative)",
+    "managed_by": "none (simulation only)"
+  },
+  "contains_secrets": false
+}

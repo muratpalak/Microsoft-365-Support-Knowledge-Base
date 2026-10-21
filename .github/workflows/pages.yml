@@ -23,6 +23,10 @@ jobs:
           python-version: '3.12'
       - name: Install dependencies
         run: pip install -r requirements.txt
+      # BEGIN: OFFLINE LAB VERIFICATION
+      - name: Check simulated training lab integrity
+        run: python -m unittest discover -s tests -v
+      # END: OFFLINE LAB VERIFICATION
       - name: Build static documentation
         run: python scripts/build_site.py
       - uses: actions/configure-pages@v5
