@@ -1,5 +1,18 @@
 # m365.desk — Microsoft 365 Support Knowledge Base
 
+<!-- BEGIN: SUPPORT SCENARIOS / IT SUPPORT EVIDENCE -->
+
+## IT Support scenarios / Praxisfälle / Destek senaryoları
+
+**[Read the step-by-step scenarios](docs/SUPPORT_SCENARIOS.md)** — Microsoft 365 onboarding and MFA guidance.
+
+**DE:** Praxisfälle: Onboarding und sichere MFA-Wiederherstellung. · **TR:** Örnek destek vakaları; belirtiler, kontrol adımları ve test kanıtları.
+
+> These are **fictional, reproducible portfolio scenarios**, not real client incidents.
+
+<!-- END: SUPPORT SCENARIOS / IT SUPPORT EVIDENCE -->
+
+
 <!-- BEGIN: REAL APPLICATION PREVIEW -->
 
 ## Interface preview / Benutzeroberfläche
