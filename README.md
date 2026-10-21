@@ -1,5 +1,20 @@
 # m365.desk — Microsoft 365 Support Knowledge Base
 
+<!-- BEGIN: INTERNATIONAL PORTFOLIO SUMMARY -->
+
+[![CI status](https://github.com/muratpalak/Microsoft-365-Support-Knowledge-Base/actions/workflows/pages.yml/badge.svg)](https://github.com/muratpalak/Microsoft-365-Support-Knowledge-Base/actions/workflows/pages.yml)
+
+**International portfolio overview / Internationale Projektübersicht**
+
+**EN:** German-language, offline-capable knowledge base with support playbooks, search, checklists and case examples. **Tech:** Microsoft 365 workflows · German documentation · HTML/JS. This is a portfolio/demo project; read its limitations before real-world use.
+
+**DE:** Deutschsprachige, offline nutzbare Knowledge Base mit Supportleitfäden, Suche, Checklisten und Fallbeispielen.
+
+**[Technical case study / Technische Projektbeschreibung](docs/PORTFOLIO_CASE_STUDY.md)** · [Documentation publish](https://github.com/muratpalak/Microsoft-365-Support-Knowledge-Base/actions/workflows/pages.yml)
+
+<!-- END: INTERNATIONAL PORTFOLIO SUMMARY -->
+
+
 **Version 2.0 · Deutschsprachiges IT-Support-Portfolio-Projekt · Offline nutzbar**
 
 Eine eigenständig entwickelte, minimalistische Wissensdatenbank für typische Microsoft-365-Supportprozesse. Das Design orientiert sich an **Soft-Glass-UI**, transparenten, erhöhten Segment-Controls, reduzierten Grautönen, warmen Apricot-Akzenten und ruhiger Typografie.
