@@ -20,9 +20,14 @@ MD = mistune.create_markdown(escape=True, plugins=['table', 'task_lists', 'strik
 
 def articles():
     result=[]
-    for p in sorted(DOCS.glob('*.md')):
+    # Only numbered KB articles are published; ordinary documentation, such as
+    # PORTFOLIO_CASE_STUDY.md, must not be parsed as a YAML-front-matter article.
+    for p in sorted(DOCS.glob('[0-9][0-9][0-9]-*.md')):
         text=p.read_text(encoding='utf-8')
-        header,body=re.match(r'\A---\s*\n(.*?)\n---\s*\n(.*)\Z',text,re.S).groups()
+        match=re.match(r'\A---\s*\n(.*?)\n---\s*\n(.*)\Z',text,re.S)
+        if match is None:
+            raise ValueError(f'Invalid article front matter: {p.name}')
+        header,body=match.groups()
         meta=yaml.safe_load(header)
         article_html=MD(body)
         # Cross-document references are client routes: work offline and on GitHub Pages.
